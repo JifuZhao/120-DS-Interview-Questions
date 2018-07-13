@@ -1,26 +1,28 @@
 ## Product Metrics (15 questions)
 
 #### 1. What would be good metrics of success for an advertising-driven consumer product? (Buzzfeed, YouTube, Google Search, etc.) A service-driven consumer product? (Uber, Flickr, Venmo, etc.)
-  * advertising-driven: Pageviews and daily actives, CTR, CPC (cost per click)
+  * advertising-driven: Page-views and daily actives, CTR, CPC (cost per click)
     * click-ads  
     * display-ads  
   * service-driven: number of purchases, conversion rate
 
-#### 2. What would be good metrics of success for a productiv- ity tool? (Evernote, Asana, Google Docs, etc.) A MOOC? (edX, Coursera, Udacity, etc.)
-  * productivity tool: same as premium subscriptions
+#### 2. What would be good metrics of success for a productivity tool? (Evernote, Asana, Google Docs, etc.) A MOOC? (edX, Coursera, Udacity, etc.)
+  * Productivity tool: same as premium subscriptions
   * MOOC: same as premium subscriptions, completion rate
 
-#### 3. What would be good metrics of success for an e-commerce product? (Etsy, Groupon, Birchbox, etc.) A subscrip- tion product? (Net ix, Birchbox, Hulu, etc.) Premium subscriptions? (OKCupid, LinkedIn, Spotify, etc.) 
+#### 3. What would be good metrics of success for an e-commerce product? (Etsy, Groupon, Birchbox, etc.) A subscription product? (Net ix, Birchbox, Hulu, etc.) Premium subscriptions? (OKCupid, LinkedIn, Spotify, etc.) 
   * e-commerce: number of purchases, conversion rate, Hourly, daily, weekly, monthly, quarterly, and annual sales, Cost of goods sold, Inventory levels, Site traffic, Unique visitors versus returning visitors, Customer service phone call count, Average resolution time
   * subscription
     * churn, CoCA, ARPU, MRR, LTV
   * premium subscriptions: 
+    * subscription rate
 
-#### 4. What would be good metrics of success for a consumer product that relies heavily on engagement and interac- tion? (Snapchat, Pinterest, Facebook, etc.) A messaging product? (GroupMe, Hangouts, Snapchat, etc.)
+#### 4. What would be good metrics of success for a consumer product that relies heavily on engagement and interaction? (Snapchat, Pinterest, Facebook, etc.) A messaging product? (GroupMe, Hangouts, Snapchat, etc.)
   * heavily on engagement and interaction: uses AU ratios, email summary by type, and push notification summary by type, resurrection ratio
   * messaging product: 
+    * daily, monthly active users
 
-#### 5. What would be good metrics of success for a product that o ered in-app purchases? (Zynga, Angry Birds, other gaming apps)
+#### 5. What would be good metrics of success for a product that offered in-app purchases? (Zynga, Angry Birds, other gaming apps)
   * Average Revenue Per Paid User
   * Average Revenue Per User
 
@@ -29,6 +31,8 @@
   * then further breakdown that basic KPI by channel, user cluster, etc. and relate them with any campaigns, changes in user behaviors in that segment
 
 #### 7. Growth for total number of tweets sent has been slow this month. What data would you look at to determine the cause of the problem?
+  * Historical data, especially historical data at the same month
+  * Outer data, such as economic data, political data, data about competitors
 
 #### 8. You’re a restaurant and are approached by Groupon to run a deal. What data would you ask from them in order to determine whether or not to do the deal?
   * for similar restaurants (they should define similarity), average increase in revenue gain per coupon, average increase in customers per coupon
@@ -48,12 +52,13 @@
 
 #### 12. You are on the data science team at Uber and you are asked to start thinking about surge pricing. What would be the objectives of such a product and how would you start looking into this?
   *  there is a gradual step-function type scaling mechanism until that imbalance of requests-to-drivers is alleviated and then vice versa as too many drivers come online enticed by the surge pricing structure. 
-  * I would bet the algorithm is custom tailored and calibrated to each location as price elasticities almost certainly vary across different cities depending on a huge multitude of variables: income, distance/sprawl, traffic patterns, car ownership, etc. With the massive troves of user data that Uber probably has collected, they most likely have tweaked the algos for each city to adjust for these varying sensitivities to surge pricing. Throw in some machine learning and incredibly rich data and you've got yourself an incredible, constantly-evolving algorithm.  
+  * I would bet the algorithm is custom tailored and calibrated to each location as price elasticities almost certainly vary across different cities depending on a huge multitude of variables: income, distance/sprawl, traffic patterns, car ownership, etc. With the massive troves of user data that Uber probably has collected, they most likely have tweaked the algorithms for each city to adjust for these varying sensitivities to surge pricing. Throw in some machine learning and incredibly rich data and you've got yourself an incredible, constantly-evolving algorithm.  
 
-#### 13. Say that you are Net ix. How would you determine what original series you should invest in and create?
+#### 13. Say that you are Netflix. How would you determine what original series you should invest in and create?
   * Netflix uses data to estimate the potential market size for an original series before giving it the go-ahead.
 
 #### 14. What kind of services would find churn (metric that tracks how many customers leave the service) helpful? How would you calculate churn?
   * subscription based services
-  
-#### 15. Let’s say that you’re are scheduling content for a content provider on television. How would you determine the best times to schedule content?Â
+
+#### 15. Let’s say that you’re are scheduling content for a content provider on television. How would you determine the best times to schedule content?
+  * Based on similar product and the corresponding broadcast popularity
